@@ -32,8 +32,6 @@ namespace WinUIExplorer.ViewModels
             });
 
             CurrentData = new ReactiveProperty<TreeViewItemViewModel>();
-
-            DataSource.Value.Add(UpdateDataSource(@"C:\Users\ayuma\source\repos\WinUIExplorer"));
         }
 
         private TreeViewItemViewModel UpdateDataSource(string rootPath)
