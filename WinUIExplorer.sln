@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30223.230
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WinUIExplorer (Package)", "WinUIExplorer\WinUIExplorer (Package)\WinUIExplorer (Package).wapproj", "{EC941A95-A9BE-4ECB-94B4-0D07A7F08E9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUIExplorer", "WinUIExplorer\WinUIExplorer\WinUIExplorer.csproj", "{AC9ABC21-B90F-45E2-8D9F-418E77192F4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinUIExplorer", "WinUIExplorer\WinUIExplorer\WinUIExplorer.csproj", "{AC9ABC21-B90F-45E2-8D9F-418E77192F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

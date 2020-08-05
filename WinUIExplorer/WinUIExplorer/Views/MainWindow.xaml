@@ -50,15 +50,15 @@
 
 
                 <DataTemplate x:Key="DirectoryBodyTemplate" x:DataType="vm:DirectoryTreeViewItemViewModel">
-                    <TextBlock Text="{x:Bind Path, Mode=OneWay}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                    <TextBlock Text="{x:Bind Path}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
                 </DataTemplate>
 
                 <DataTemplate x:Key="TextFileBodyTemplate" x:DataType="vm:TextTreeViewItemViewModel">
-                    <TextBlock Text="{x:Bind Body, Mode=OneWay}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                    <TextBlock Text="{x:Bind Body}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
                 </DataTemplate>
 
                 <DataTemplate x:Key="ImageFileBodyTemplate" x:DataType="vm:ImageTreeViewItemViewModel">
-                    <Image Source="{x:Bind Image, Mode=OneWay}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                    <Image Source="{x:Bind Image}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
                 </DataTemplate>
 
 
